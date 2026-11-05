@@ -1,0 +1,28 @@
+{
+  "name": "NoorGull",
+  "short_name": "NoorGull",
+  "description": "Public index for Tajoor Enterprises.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#10140f",
+  "theme_color": "#10140f",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

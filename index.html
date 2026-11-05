@@ -1,43 +1,654 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>NoorGull</title>
-  <meta name="description" content="Work by NoorGull. PhoneKey is a free WireGuard client for Android." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560&family=Outfit:wght@400;600&display=swap" rel="stylesheet" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NoorGull — public index for Tajoor Enterprises</title>
+  <meta name="description" content="NoorGull is the public index for Tajoor Enterprises. PhoneKey, a free Android WireGuard client, is ready to use, with every other public project linked.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#10140f">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://tajoor621.github.io/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta property="og:site_name" content="NoorGull">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tajoor621.github.io/">
+  <meta property="og:title" content="NoorGull — public index for Tajoor Enterprises">
+  <meta property="og:description" content="NoorGull is the public index for Tajoor Enterprises. PhoneKey, a free Android WireGuard client, is ready to use, with every other public project linked.">
+  <meta property="og:image" content="https://tajoor621.github.io/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NoorGull, the public index for Tajoor Enterprises. PhoneKey is ready to use.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NoorGull — public index for Tajoor Enterprises">
+  <meta name="twitter:description" content="NoorGull is the public index for Tajoor Enterprises. PhoneKey, a free Android WireGuard client, is ready to use, with every other public project linked.">
+  <meta name="twitter:image" content="https://tajoor621.github.io/og.png">
+  <meta name="twitter:image:alt" content="NoorGull, the public index for Tajoor Enterprises. PhoneKey is ready to use.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "NoorGull",
+    "url": "https://tajoor621.github.io/",
+    "description": "NoorGull is the public index for Tajoor Enterprises. PhoneKey, a free Android WireGuard client, is ready to use, with every other public project linked.",
+    "inLanguage": "en",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NoorGull",
+      "url": "https://tajoor621.github.io/",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Tajoor Enterprises",
+        "url": "https://tajoor621.github.io/"
+      }
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "numberOfItems": 12,
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "PhoneKey", "url": "https://tajoor621.github.io/PhoneKey23/"},
+        {"@type": "ListItem", "position": 2, "name": "Am I Scholar", "url": "https://tajoor621.github.io/Am-i-Scholar/"},
+        {"@type": "ListItem", "position": 3, "name": "Study Frog", "url": "https://tajoor621.github.io/StudyFrog/"},
+        {"@type": "ListItem", "position": 4, "name": "Media Manager 621", "url": "https://tajoor621.github.io/media-manager/"},
+        {"@type": "ListItem", "position": 5, "name": "TN-Player", "url": "https://tajoor621.github.io/TN-Player/"},
+        {"@type": "ListItem", "position": 6, "name": "My Offers", "url": "https://tajoor621.github.io/Digital-Flyer/"},
+        {"@type": "ListItem", "position": 7, "name": "JUW-MicroSlides", "url": "https://tajoor621.github.io/JUW-MicroSlides/"},
+        {"@type": "ListItem", "position": 8, "name": "Khait-Kalyaan", "url": "https://tajoor621.github.io/Khait-Kalyaan/"},
+        {"@type": "ListItem", "position": 9, "name": "BableTalk", "url": "https://tajoor621.github.io/BableTalk/"},
+        {"@type": "ListItem", "position": 10, "name": "Mera-Sukoon24", "url": "https://tajoor621.github.io/Mera-Sukoon24/"},
+        {"@type": "ListItem", "position": 11, "name": "Autosheets", "url": "https://tajoor621.github.io/Autosheets/"},
+        {"@type": "ListItem", "position": 12, "name": "My-Sheets", "url": "https://tajoor621.github.io/My-Sheets/"}
+      ]
+    }
+  }
+  </script>
   <style>
-    :root { color-scheme: dark; --canvas: #10140f; --card: #1c241a; --fg: #f3f0e7; --muted: #a8ad9f; --line: #3a4336; --brass: #e0b15a; --ink: #1a1408; }
-    * { box-sizing: border-box; }
-    body { margin: 0; background: var(--canvas); color: var(--fg); font-family: Outfit, ui-sans-serif, system-ui, sans-serif; line-height: 1.5; }
-    main { max-width: 40rem; margin: 0 auto; padding: 3.5rem 1.25rem 4rem; }
-    h1, h2 { font-family: Fraunces, ui-serif, Georgia, serif; font-weight: 560; letter-spacing: -0.02em; }
-    h1 { font-size: 3rem; line-height: 1.05; margin: 0 0 0.5rem; }
-    h2 { font-size: 1.35rem; margin: 0 0 0.4rem; }
-    p { color: var(--muted); }
-    a { color: var(--brass); }
-    .card { margin-top: 2rem; padding: 1.25rem 1.25rem 1.4rem; background: var(--card); border: 1px solid var(--line); border-radius: 1.25rem; }
-    .row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; }
-    .btn { display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0 1rem; border-radius: 0.9rem; background: var(--brass); color: var(--ink); font-weight: 600; text-decoration: none; }
-    .btn.ghost { background: transparent; color: var(--fg); border: 1px solid var(--line); }
+    :root {
+      color-scheme: dark;
+      --canvas: #10140f;
+      --card: #1c241a;
+      --fg: #f3f0e7;
+      --quiet: #c5ccb8;
+      --brass: #e0b15a;
+      --brass-hot: #f0cb86;
+      --ink: #1a1408;
+      --line: #3a4336;
+      --line-strong: #9a916f;
+      --serif: "Iowan Old Style", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Liberation Serif", "Times New Roman", serif;
+      --sans: system-ui, "Segoe UI", "Helvetica Neue", "Liberation Sans", sans-serif;
+      --mono: ui-monospace, "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background-color: var(--canvas);
+      background-image: radial-gradient(ellipse 80% 42% at 8% -8%, rgba(224, 177, 90, 0.16), transparent 58%);
+      color: var(--fg);
+      font-family: var(--sans);
+      font-size: 1.0625rem;
+      line-height: 1.6;
+    }
+
+    .vh {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .skip {
+      position: absolute;
+      left: 0.75rem;
+      top: 0.75rem;
+      z-index: 2;
+      padding: 0.6rem 0.9rem;
+      background: var(--brass);
+      color: var(--ink);
+      font-weight: 700;
+      text-decoration: none;
+      transform: translateY(-160%);
+    }
+
+    .skip:focus {
+      transform: none;
+      outline: 3px solid var(--fg);
+      outline-offset: 3px;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--fg);
+      outline-offset: 3px;
+      box-shadow: 0 0 0 5px var(--canvas);
+    }
+
+    .book {
+      width: min(70rem, calc(100% - 2.5rem));
+      margin: 0 auto;
+      padding: 1.75rem 0 3.5rem 1.35rem;
+      border-left: 3px solid var(--brass);
+    }
+
+    .mast-top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.35rem 1.5rem;
+      margin: 0 0 1.35rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--brass);
+    }
+
+    .brand,
+    .index-label {
+      margin: 0;
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    .index-label { color: var(--brass); }
+
+    h1, h2, h3 {
+      font-family: var(--serif);
+      font-weight: 500;
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+      overflow-wrap: break-word;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(3.4rem, 9vw, 6.25rem);
+      line-height: 0.92;
+    }
+
+    .lede {
+      max-width: 38rem;
+      margin: 1rem 0 0;
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+
+    .profile { margin: 1rem 0 0; }
+
+    a { color: var(--brass-hot); text-underline-offset: 0.18em; }
+
+    a:hover { color: var(--fg); }
+
+    .toc {
+      margin-top: 1.35rem;
+      padding-top: 0.85rem;
+      border-top: 1px solid var(--line);
+    }
+
+    .toc ol {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.15rem 1.15rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .toc a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 2.75rem;
+      color: var(--fg);
+      text-decoration-color: var(--brass);
+    }
+
+    main:focus { outline: 3px solid var(--brass); outline-offset: 6px; }
+
+    .feature {
+      margin-top: 1.75rem;
+      padding: 1.35rem 1.3rem 1.45rem;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-top: 4px solid var(--brass);
+      scroll-margin-top: 1rem;
+    }
+
+    .kicker-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.65rem 0.9rem;
+    }
+
+    .num {
+      font-family: var(--mono);
+      font-size: 0.82rem;
+      letter-spacing: 0.06em;
+      color: var(--brass);
+    }
+
+    .kicker {
+      margin: 0;
+      color: var(--brass);
+      font-size: 0.92rem;
+      font-weight: 600;
+    }
+
+    .feature h2 {
+      margin: 0.55rem 0 0;
+      font-size: clamp(2.5rem, 5vw, 3.6rem);
+    }
+
+    .feature p { max-width: 42rem; }
+
+    .note {
+      color: var(--quiet);
+      font-size: 0.98rem;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.2rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 2.75rem;
+      padding: 0.55rem 1.05rem;
+      background: var(--brass);
+      color: var(--ink);
+      font-weight: 700;
+      text-decoration: none;
+      border: 2px solid var(--brass);
+    }
+
+    .btn:hover { background: var(--brass-hot); color: var(--ink); }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--fg);
+      border-color: var(--line-strong);
+      font-weight: 600;
+    }
+
+    .btn-ghost:hover {
+      background: transparent;
+      color: var(--brass-hot);
+      border-color: var(--brass);
+    }
+
+    .shelf-head {
+      margin-top: 3rem;
+      scroll-margin-top: 1rem;
+    }
+
+    .shelf-head h2 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 2.7rem);
+    }
+
+    .shelf-head p {
+      max-width: 40rem;
+      margin-top: 0.7rem;
+      color: var(--quiet);
+    }
+
+    .shelf {
+      list-style: none;
+      margin: 1.25rem 0 0;
+      padding: 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .entry {
+      display: grid;
+      grid-template-columns: 2.8rem minmax(0, 1fr) auto;
+      column-gap: 0.9rem;
+      row-gap: 0.15rem;
+      align-items: start;
+      padding: 1.15rem 0.2rem 1.2rem;
+      border-top: 1px solid var(--line);
+      scroll-margin-top: 1rem;
+    }
+
+    .entry .num {
+      grid-column: 1;
+      grid-row: 1 / span 3;
+      padding-top: 0.15rem;
+    }
+
+    .entry .kicker { grid-column: 2; grid-row: 1; }
+
+    .entry h3 {
+      grid-column: 2;
+      grid-row: 2;
+      margin: 0.1rem 0 0;
+      font-size: clamp(1.45rem, 2.4vw, 1.85rem);
+    }
+
+    .summary {
+      grid-column: 2;
+      grid-row: 3;
+      max-width: 62ch;
+      margin: 0.35rem 0 0;
+    }
+
+    .links {
+      grid-column: 3;
+      grid-row: 1 / span 3;
+      align-self: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 0;
+    }
+
+    .links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 5.6rem;
+      min-height: 2.75rem;
+      padding: 0.35rem 0.85rem;
+      border: 1px solid var(--line-strong);
+      color: var(--fg);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      color: var(--brass-hot);
+      border-color: var(--brass);
+    }
+
+    .entry:target,
+    .feature:target {
+      outline: 2px solid var(--brass);
+      outline-offset: 4px;
+    }
+
+    .colophon {
+      margin-top: 2.75rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid var(--brass);
+      color: var(--quiet);
+    }
+
+    .sig {
+      color: var(--fg);
+      font-family: var(--serif);
+      font-size: 1.35rem;
+      letter-spacing: -0.02em;
+    }
+
+    ::selection { background: var(--brass); color: var(--ink); }
+
+    @media (max-width: 46rem) {
+      .book { width: min(70rem, calc(100% - 1.5rem)); padding-left: 0.95rem; }
+      .entry { grid-template-columns: 2.3rem minmax(0, 1fr); }
+      .links { grid-column: 2; grid-row: 4; align-self: start; margin-top: 0.75rem; }
+      .actions { display: grid; grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 22rem) {
+      .book { width: calc(100% - 1rem); padding-left: 0.7rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
+    @media (prefers-contrast: more) {
+      :root {
+        --quiet: var(--fg);
+        --line: #d9d3c3;
+        --line-strong: #f3f0e7;
+      }
+    }
+
+    @media (forced-colors: active) {
+      .book, .feature, .btn, .links a { border-color: CanvasText; }
+      :focus-visible, .skip:focus, main:focus {
+        outline: 3px solid Highlight;
+        box-shadow: none;
+      }
+    }
+
+    @media print {
+      :root { color-scheme: light; }
+      body { background: #fff; color: #161616; background-image: none; }
+      .book { border-left-color: #161616; }
+      .brand, .index-label, .kicker, .num, a, .sig { color: #161616; }
+      .feature, .btn, .btn-ghost, .links a {
+        background: #fff;
+        color: #161616;
+        border-color: #161616;
+      }
+      .quiet, .note, .shelf-head p, .colophon, .summary { color: #161616; }
+      .actions a[href]::after,
+      .links a[href]::after,
+      .profile a[href]::after,
+      .colophon a[href]::after {
+        content: " (" attr(href) ")";
+        font-weight: 400;
+        font-size: 0.85em;
+      }
+      .skip, .toc { display: none; }
+    }
   </style>
 </head>
 <body>
-  <main>
-    <p>Tajoor Enterprises</p>
-    <h1>NoorGull</h1>
-    <p>A short index of what is public. The project that is ready to use is PhoneKey.</p>
-    <article class="card">
-      <h2>PhoneKey</h2>
-      <p>A free WireGuard client for Android. No ads, no subscription, no account, and no tracking. You bring your own server. Xray and SSTP are not implemented.</p>
-      <div class="row">
-        <a class="btn" href="https://tajoor621.github.io/PhoneKey23/">Open PhoneKey</a>
-        <a class="btn ghost" href="https://github.com/Tajoor621/PhoneKey23">Source</a>
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="book">
+    <header>
+      <div class="mast-top">
+        <p class="brand">Tajoor Enterprises</p>
+        <p class="index-label">Public index</p>
       </div>
-    </article>
-    <p style="margin-top:2rem"><a href="https://github.com/Tajoor621">GitHub</a></p>
-  </main>
+      <h1>NoorGull</h1>
+      <p class="lede">A public index of what is published. The project that is ready to use is PhoneKey. Every other public project is listed below with its live site and its source.</p>
+      <p class="profile"><a rel="me" href="https://github.com/Tajoor621">Tajoor621 on GitHub</a></p>
+      <nav class="toc" aria-label="Project index">
+        <ol>
+          <li><a href="#phonekey">PhoneKey</a></li>
+          <li><a href="#am-i-scholar">Am I Scholar</a></li>
+          <li><a href="#study-frog">Study Frog</a></li>
+          <li><a href="#media-manager">Media Manager 621</a></li>
+          <li><a href="#tn-player">TN-Player</a></li>
+          <li><a href="#my-offers">My Offers</a></li>
+          <li><a href="#juw-microslides">JUW-MicroSlides</a></li>
+          <li><a href="#khait-kalyaan">Khait-Kalyaan</a></li>
+          <li><a href="#babletalk">BableTalk</a></li>
+          <li><a href="#mera-sukoon">Mera-Sukoon24</a></li>
+          <li><a href="#autosheets">Autosheets</a></li>
+          <li><a href="#my-sheets">My-Sheets</a></li>
+        </ol>
+      </nav>
+    </header>
+
+    <main id="content" tabindex="-1">
+      <article class="feature" id="phonekey">
+        <div class="kicker-row">
+          <span class="num" aria-hidden="true">01</span>
+          <p class="kicker">Ready to use · PhoneKey23</p>
+        </div>
+        <h2>PhoneKey</h2>
+        <p>A free WireGuard client for Android. No ads, no subscription, no account, and no tracking. You bring your own server. Xray and SSTP are not implemented.</p>
+        <p>The website is for information and download. A tunnel starts in the installed app, after Android's permission prompt, using a WireGuard profile from your own server.</p>
+        <p class="note">Android 8.0 or newer.</p>
+        <div class="actions">
+          <a class="btn" href="https://tajoor621.github.io/PhoneKey23/">Open the PhoneKey site</a>
+          <a class="btn btn-ghost" href="https://github.com/Tajoor621/PhoneKey23">PhoneKey source</a>
+        </div>
+      </article>
+
+      <div class="shelf-head" id="shelf">
+        <h2>Public projects</h2>
+        <p>Eleven more. Site opens that project’s GitHub Pages page. Source opens the repository.</p>
+      </div>
+
+      <ol class="shelf" start="2">
+        <li>
+          <article class="entry" id="am-i-scholar">
+            <span class="num" aria-hidden="true">02</span>
+            <p class="kicker">Research</p>
+            <h3>Am I Scholar</h3>
+            <p class="summary">Offline-first academic research and writing assistant. Papers, sources, and drafts stay on the device.</p>
+            <p class="links">
+              <a href="https://tajoor621.github.io/Am-i-Scholar/">Site<span class="vh">: Am I Scholar</span></a>
+              <a href="https://github.com/Tajoor621/Am-i-Scholar">Source<span class="vh">: Am I Scholar</span></a>
+            </p>
+          </article>
+        </li>
+        <li>
+          <article class="entry" id="study-frog">
+            <span class="num" aria-hidden="true">03</span>
+            <p class="kicker">Study</p>
+            <h3>Study Frog</h3>
+            <p class="summary">Offline-first creative study workspace for diagrams, annotations, and export.</p>
+            <p class="links">
+              <a href="https://tajoor621.github.io/StudyFrog/">Site<span class="vh">: Study Frog</span></a>
+              <a href="https://github.com/Tajoor621/StudyFrog">Source<span class="vh">: Study Frog</span></a>
+            </p>
+          </article>
+        </li>
+        <li>
+          <article class="entry" id="media-manager">
+            <span class="num" aria-hidden="true">04</span>
+            <p class="kicker">Files</p>
+            <h3>Media Manager 621</h3>
+            <p class="summary">A progressive web app for browsing, previewing, and sharing files you select.</p>
+            <p class="links">
+              <a href="https://tajoor621.github.io/media-manager/">Site<span class="vh">: Media Manager 621</span></a>
+              <a href="https://github.com/Tajoor621/media-manager">Source<span class="vh">: Media Manager 621</span></a>
+            </p>
+          </article>
+        </li>
+        <li>
+          <article class="entry" id="tn-player">
+            <span class="num" aria-hidden="true">05</span>
+            <p class="kicker">Android media</p>
+            <h3>TN-Player</h3>
+            <p class="summary">Local-first Android player for video, music, and streams you bring. The published build is a development preview.</p>
+            <p class="links">
+              <a href="https://tajoor621.github.io/TN-Player/">Site<span class="vh">: TN-Player</span></a>
+              <a href="https://github.com/Tajoor621/TN-Player">Source<span class="vh">: TN-Player</span></a>
+            </p>
+          </article>
+        </li>
+        <li>
+          <article class="entry" id="my-offers">
+            <span class="num" aria-hidden="true">06</span>
+            <p class="kicker">Neighbourhood · Digital-Flyer</p>
+            <h3>My Offers</h3>
+            <p class="summary">Neighbourhood price book for groceries and local deals. This Pages site is the project introduction.</p>
+            <p class="links">
+              <a href="https://tajoor621.github.io/Digital-Flyer/">Site<span class="vh">: My Offers</span></a>
+              <a href="https://github.com/Tajoor621/Digital-Flyer">Source<span class="vh">: My Offers</span></a>
+            </p>
+          </article>
+        </li>
+        <li>
+          <article class="entry" id="juw-microslides">
+            <span class="num" aria-hidden="true">07</span>
+            <p class="kicker">Microbiology</p>
+            <h3>JUW-MicroSlides</h3>
+            <p class="summary">Local-first microbiology lecture editor for personal study. The project states it is not an official Jinnah University for Women publication.</p>
+            <p class="links">
+              <a href="https://tajoor621.github.io/JUW-MicroSlides/">Site<span class="vh">: JUW-MicroSlides</span></a>
+              <a href="https://github.com/Tajoor621/JUW-MicroSlides">Source<span class="vh">: JUW-MicroSlides</span></a>
+            </p>
+          </article>
+        </li>
+        <li>
+          <article class="entry" id="khait-kalyaan">
+            <span class="num" aria-hidden="true">08</span>
+            <p class="kicker">Chota Kisan aur Mobile Gujjar</p>
+            <h3>Khait-Kalyaan</h3>
+            <p class="summary">Agriculture and rural farm business.</p>
+            <p class="links">
+              <a href="https://tajoor621.github.io/Khait-Kalyaan/">Site<span class="vh">: Khait-Kalyaan</span></a>
+              <a href="https://github.com/Tajoor621/Khait-Kalyaan">Source<span class="vh">: Khait-Kalyaan</span></a>
+            </p>
+          </article>
+        </li>
+        <li>
+          <article class="entry" id="babletalk">
+            <span class="num" aria-hidden="true">09</span>
+            <p class="kicker">Conversation</p>
+            <h3>BableTalk</h3>
+            <p class="summary">On-device face-to-face conversation assistant. The app is titled BabelTalk, and this site is the guide.</p>
+            <p class="links">
+              <a href="https://tajoor621.github.io/BableTalk/">Site<span class="vh">: BableTalk</span></a>
+              <a href="https://github.com/Tajoor621/BableTalk">Source<span class="vh">: BableTalk</span></a>
+            </p>
+          </article>
+        </li>
+        <li>
+          <article class="entry" id="mera-sukoon">
+            <span class="num" aria-hidden="true">10</span>
+            <p class="kicker">Sukoon</p>
+            <h3>Mera-Sukoon24</h3>
+            <p class="summary">Reading and calming tools for a more manageable day. Self-help, with no account and no ads. Sukoon is not clinical care.</p>
+            <p class="links">
+              <a href="https://tajoor621.github.io/Mera-Sukoon24/">Site<span class="vh">: Mera-Sukoon24</span></a>
+              <a href="https://github.com/Tajoor621/Mera-Sukoon24">Source<span class="vh">: Mera-Sukoon24</span></a>
+            </p>
+          </article>
+        </li>
+        <li>
+          <article class="entry" id="autosheets">
+            <span class="num" aria-hidden="true">11</span>
+            <p class="kicker">Fleet accounts</p>
+            <h3>Autosheets</h3>
+            <p class="summary">Automobile and fleet accounting for rental, parking, and taxi books.</p>
+            <p class="links">
+              <a href="https://tajoor621.github.io/Autosheets/">Site<span class="vh">: Autosheets</span></a>
+              <a href="https://github.com/Tajoor621/Autosheets">Source<span class="vh">: Autosheets</span></a>
+            </p>
+          </article>
+        </li>
+        <li>
+          <article class="entry" id="my-sheets">
+            <span class="num" aria-hidden="true">12</span>
+            <p class="kicker">Expenses · Express Tracker Pro</p>
+            <h3>My-Sheets</h3>
+            <p class="summary">Daily and monthly expense tracker.</p>
+            <p class="links">
+              <a href="https://tajoor621.github.io/My-Sheets/">Site<span class="vh">: My-Sheets</span></a>
+              <a href="https://github.com/Tajoor621/My-Sheets">Source<span class="vh">: My-Sheets</span></a>
+            </p>
+          </article>
+        </li>
+      </ol>
+    </main>
+
+    <footer class="colophon">
+      <p><span class="sig">NoorGull</span> · Tajoor Enterprises</p>
+      <p><a rel="me" href="https://github.com/Tajoor621">Tajoor621 on GitHub</a></p>
+      <p>A static index. This page does not use cookies, accounts, or analytics.</p>
+    </footer>
+  </div>
 </body>
 </html>
